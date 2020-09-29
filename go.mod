@@ -10,6 +10,10 @@ replace (
 	github.com/urfave/cli => github.com/keep-network/cli v1.20.0
 )
 
+replace (
+	github.com/keep-network/keep-core => github.com/biluohc/keep-core v1.3.0-p
+)
+
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/binance-chain/tss-lib v1.3.1
